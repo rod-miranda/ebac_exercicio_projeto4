@@ -2,13 +2,15 @@
 
 .shows {
     padding: 2vw 5.6vw;
-    min-height: 50vw;
+    min-height: 40vw;
 
     &__list {
+        font-size: 18px;
+        line-height: 28px;
+        color: silver;
         margin-top: 44px;
         display: none;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 24px;
+        grid-template-columns: 1fr 1fr;
 
         @media (max-width: 768px) {
             grid-template-columns: 1fr 1fr;
