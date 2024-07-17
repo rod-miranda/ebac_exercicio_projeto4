@@ -4,6 +4,22 @@
     padding: 2vw 5.6vw;
     min-height: 40vw;
 
+.image-text-section {
+    display: flex;
+    padding: 0 2vw;
+
+        p {
+            padding-top: 10.5vw;
+            padding-right: 2vw;
+        }
+
+        img {
+            max-height: 640px;
+            padding-left: 8vw;
+            align-items: center;
+        }
+}
+
     &__list {
         font-size: 18px;
         line-height: 28px;
@@ -56,7 +72,6 @@
             @media (max-width: 768px) {
                 font-size: 16px;
             }
-
         }
     }
 }
