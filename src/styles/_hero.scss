@@ -3,12 +3,12 @@
 .hero {
     padding: 5.6vw;
     min-height: 80vh;
-    background-image: url(../img-ex/er1hero.png);
+    background-image: url(../images/er1hero.png);
     text-align: center;
     background-size: cover;
 
     @media (max-width: 768px) {
-        background-image: url(../img-ex/er1hero.png);
+        background-image: url(../images/er1hero.png);
         padding-top: calc(50vw + 25px);
         background-size: contain;
         background-repeat: no-repeat;
